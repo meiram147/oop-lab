@@ -1,0 +1,9 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Прочитать           текст           Java-программы          и удалить        из         него          все        «лишние» пробелы          ".replaceAll("[\\s]{2,}", " "));
+
+    }
+}
